@@ -1,0 +1,54 @@
+ALGORITHM
+Task 1:
+Implement an algorithm for determining if an Nth number is a divisor of an nth Number (i.e. 2 is a divisor of 6). 
+If so, determine if it’s an even number or odd number as well.
+
+1.	User entered Nth number as aN.
+2.	User entered nth number as an.
+3.	If (an mod aN = 0) then Display aN is a divisor of an.
+4.	Else Display aN is not a divisor of an.
+5.	Then set Quotient as (an/aN).
+6.	If (Quotient mod 2 = 0) then Display Quotient is Even.
+7.	Else Display Quotient is Odd.
+
+Task 3:
+Implement an algorithm for making a simple calculator with all the operators (+, -, *, /, %).
+Intro: Below is a calculator to add, subtract, multiply, divide or to find the percentage of any two numbers.
+
+1.	Ask the user to Enter First number.
+2.	Ask the user to Enter Second number.
+3.	Set Sum to (First number + Second Number).
+4.	Set Difference to (First number - Second Number).
+5.	Set Product to (First number * Second Number).
+6.	Set Quotient to (First number / Second Number).
+7.	Set Percentage to (First number % Second Number).
+8.	Ask the user to Find What (Sum, Difference, Product, Quotient, Percentage).
+9.	Display what the user enters in Find What.
+
+
+PSEUDOCODE
+Task 2:
+Take three variables as input and add them without using the + operator
+(Use your head for this)
+
+1.	Start
+2.	Input Number 1
+3.	Input Number 2 
+4.	Input number 3
+5.	Set Sum to 0.
+6.	Set Sum to {(-Number 1 - Number 2 - Number 3) x (- 1)}
+7.	Print Sum
+8.	End
+
+Task 3:
+Create a small calculator which only does ‘+’ or ‘- ‘Operations. 
+(Hint: Take three variable inputs with one being used for the operator)
+
+1.	Start
+2.	Input Number 1
+3.	Input ‘+’ or ‘-‘ Operator
+4.	Input Number 2 
+5.	Set Result to 0.
+6.	Set Result to {(Number 1) (Operator) (Number 2)}
+7.	Print Result
+8.	End
